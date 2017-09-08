@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/f.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contenido {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: block; }
+  .contenido::after {
+    position: absolute;
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; }
+  .contenido_titulo {
+    background: #172D44;
+    width: 100%;
+    height: 12%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    line-height: 2; }
+    .contenido_titulo h1 {
+      margin: 0;
+      text-align: center;
+      color: #FFFFFF; }
+  .contenido_app {
+    height: 88%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .contenido_app_config {
+      background: #2A3F54;
+      width: 25%;
+      border-right: 1px solid white; }
+      .contenido_app_config h2 {
+        width: 80%;
+        text-align: center;
+        margin: 1em auto; }
+      .contenido_app_config .input_box {
+        width: 80%;
+        text-align: center;
+        margin: .5em auto; }
+        .contenido_app_config .input_box label {
+          display: block;
+          width: 100%;
+          text-align: center;
+          color: #FFFFFF;
+          line-height: 2;
+          font-size: 1.2em; }
+        .contenido_app_config .input_box input {
+          display: block;
+          background: #172D44;
+          margin: auto;
+          border: 0;
+          color: #FFFFFF;
+          width: 50%;
+          border-radius: 5%;
+          line-height: 1.5;
+          text-align: center; }
+          .contenido_app_config .input_box input:hover, .contenido_app_config .input_box input:visited, .contenido_app_config .input_box input:focus, .contenido_app_config .input_box input:active {
+            outline: none; }
+      .contenido_app_config #iniciar {
+        display: block;
+        -webkit-transition: all .8s;
+        -o-transition: all .8s;
+        transition: all .8s;
+        background: #1ABB9C;
+        border: 1px solid #1ABB9C;
+        color: #FFFFFF;
+        width: 60%;
+        line-height: 2;
+        font-size: 1em;
+        margin: 2em auto; }
+        .contenido_app_config #iniciar init {
+          background: red;
+          -webkit-transition: all .8s;
+          -o-transition: all .8s;
+          transition: all .8s; }
+        .contenido_app_config #iniciar:hover, .contenido_app_config #iniciar:visited, .contenido_app_config #iniciar:focus, .contenido_app_config #iniciar:active {
+          outline: none;
+          cursor: pointer; }
+    .contenido_app_mapa {
+      background: rgba(23, 45, 68, 0.8);
+      width: 75%;
+      height: 100%;
+      margin: auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .contenido_app_mapa .marco {
+        width: 75%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        .contenido_app_mapa .marco .line {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 100%;
+          height: 130px;
+          position: relative; }
+          .contenido_app_mapa .marco .line .item {
+            -webkit-box-shadow: 10px 10px 5px #2A3F54;
+            box-shadow: 10px 10px 5px #2A3F54;
+            position: relative;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            background-size: cover;
+            border: 2px solid #172D44; }
+            .contenido_app_mapa .marco .line .item:hover {
+              cursor: pointer; }
+              .contenido_app_mapa .marco .line .item:hover::after {
+                -webkit-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s; }
+            .contenido_app_mapa .marco .line .item::after {
+              position: absolute;
+              content: "";
+              width: 100%;
+              height: 100%;
+              top: 0;
+              left: 0;
+              z-index: 2;
+              background: transparent;
+              -webkit-transition: all .5s;
+              -o-transition: all .5s;
+              transition: all .5s; }
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF; }
